@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
   renderExperienceGrid();
   initScrollEffects();
   initNav();
-  initHeroParallax();
 });
 
 function renderExperienceGrid() {
@@ -67,11 +66,3 @@ function initNav() {
   });
 }
 
-function initHeroParallax() {
-  const heroImg = document.querySelector('.hero-img');
-  if (!heroImg) return;
-  window.addEventListener('scroll', () => {
-    const offset = window.scrollY;
-    heroImg.style.transform = `translateY(${offset * 0.25}px)`;
-  }, { passive: true });
-}
