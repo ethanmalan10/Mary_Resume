@@ -26,11 +26,12 @@ function renderExperienceGrid() {
         <div class="exp-highlights">
           ${exp.highlights.map(h => `<span class="highlight-tag">${h}</span>`).join('')}
         </div>
-        <a href="experience.html?id=${exp.id}" class="exp-link">
-          View Full Experience <span class="arrow">&#8594;</span>
-        </a>
       </div>
     `;
+
+    card.addEventListener('click', () => {
+      window.location.href = `experience.html?id=${exp.id}`;
+    });
 
     grid.appendChild(card);
   });

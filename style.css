@@ -6,7 +6,7 @@
   --surface:      #FFFFFF;
   --text:         #2C2C2C;
   --text-muted:   #6B6B6B;
-  --heading:      #1A2E4A;
+  --heading:      #3C2A38;
   --accent:       #B08968;
   --accent-dark:  #9A7558;
   --accent-light: #F5EDE3;
@@ -511,6 +511,7 @@ em { font-style: italic; color: var(--accent); font-family: 'Cormorant Garamond'
   overflow: hidden;
   position: relative;
   transition: transform 0.25s, box-shadow 0.25s;
+  cursor: pointer;
 }
 
 .exp-card::after {
