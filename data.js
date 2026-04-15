@@ -6,7 +6,7 @@ const experiences = [
     location: 'Utah',
     dates: 'August 2025 – Present',
     category: 'Benefits Administration',
-    accent: '#4A7FA5',
+    accent: '#C4856A',
     highlights: ['94% Customer Satisfaction', '75% First-Call Resolution', 'HIPAA Compliant'],
     summary: 'Serving as a front-line representative for employee benefits administration, providing expert guidance on FSA, HSA, and COBRA accounts with zero compliance violations.',
     bullets: [
@@ -76,7 +76,7 @@ const experiences = [
     location: 'Utah & Hawaii',
     dates: '2020 – 2023',
     category: 'Retail',
-    accent: '#8A8AAA',
+    accent: '#A89080',
     highlights: ['Cross-Cultural Communication', 'Visual Merchandising', 'Cash Handling'],
     summary: 'Across Knot and Spool, Tahitian Treasures, and Beck\'s Shoes, built a strong foundation in retail, product knowledge, and serving customers from diverse cultural backgrounds.',
     bullets: [
